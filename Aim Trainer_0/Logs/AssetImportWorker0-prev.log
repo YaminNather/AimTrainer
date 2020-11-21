@@ -1,0 +1,1120 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.0b11 (c499c2bf2e80) revision 12884418'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16231 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Yamin\Game Design\Unity\Editors\2020.2.0b11\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Yamin/Game Design/Projects/Anim Trainer/Projects Unity/Aim Trainer_0
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50973
+Successfully changed project path to: D:/Yamin/Game Design/Projects/Anim Trainer/Projects Unity/Aim Trainer_0
+D:/Yamin/Game Design/Projects/Anim Trainer/Projects Unity/Aim Trainer_0
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 82.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0b11 (c499c2bf2e80)
+[Subsystems] Discovering subsystems at path D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Yamin/Game Design/Projects/Anim Trainer/Projects Unity/Aim Trainer_0/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.5655
+Initialize mono
+Mono path[0] = 'D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/Managed'
+Mono path[1] = 'D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001029 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 83.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.713 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003673 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.252 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.7 MB.
+System memory in use after: 192.6 MB.
+
+Unloading 141 unused Assets to reduce memory usage. Loaded Objects now: 4487.
+Total: 19.652100 ms (FindLiveObjects: 1.036400 ms CreateObjectMapping: 0.481900 ms MarkObjects: 15.681500 ms  DeleteObjects: 2.449100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Main Game/Player/Manager/Scripts
+  artifactKey: Guid(93a9e3bf523bc1747ae1f5ed2503fbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Player/Manager/Scripts using Guid(93a9e3bf523bc1747ae1f5ed2503fbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c43720b793875858469425f95880cc') in 0.045799 seconds
+  Import took 0.063304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Main Game/Player/Manager/Scripts/PlayerMgr.cs
+  artifactKey: Guid(9f7a9c597b8ae3e4694a79a1563dfa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Player/Manager/Scripts/PlayerMgr.cs using Guid(9f7a9c597b8ae3e4694a79a1563dfa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d97c29346b22696fda2a69a8cc8317a') in 0.066904 seconds
+  Import took 0.092831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Main Game/Player/Manager
+  artifactKey: Guid(75b0be2eece26b54997122cd4cce012a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Player/Manager using Guid(75b0be2eece26b54997122cd4cce012a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c03389f3bd511628b8cf7bf3a71d92c') in 0.007759 seconds
+  Import took 0.017772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Main Game/Player/Manager/Scripts/AimComponent.cs
+  artifactKey: Guid(ddc7c7f8f3dc9684d94db5c9128cc0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Player/Manager/Scripts/AimComponent.cs using Guid(ddc7c7f8f3dc9684d94db5c9128cc0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18efd37266ef9594264710059af9312') in 0.011718 seconds
+  Import took 0.022863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.757539 seconds.
+  path: Assets/Main Game/Targets/Scripts/TargetMgrBase.cs
+  artifactKey: Guid(e0bd2b60d5e510945bbc4e29070f373d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Scripts/TargetMgrBase.cs using Guid(e0bd2b60d5e510945bbc4e29070f373d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dbd9884fb414623f60e11a7d5caf20') in 0.039381 seconds
+  Import took 0.050204 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001030 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.903 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003925 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.846 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 51 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.5 MB.
+System memory in use after: 114.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4491.
+Total: 19.710800 ms (FindLiveObjects: 1.318600 ms CreateObjectMapping: 0.537900 ms MarkObjects: 16.136100 ms  DeleteObjects: 1.715000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 365.092277 seconds.
+  path: Assets/Main Game/Targets/Movement Components
+  artifactKey: Guid(0ce7d4220f9c7254c987f5c83cbc288a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components using Guid(0ce7d4220f9c7254c987f5c83cbc288a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d6d9cf7977309e56d39d52c5986e99') in 0.007765 seconds
+  Import took 0.017985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004369 seconds.
+  path: Assets/Main Game/Targets/Movement Components
+  artifactKey: Guid(0ce7d4220f9c7254c987f5c83cbc288a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components using Guid(0ce7d4220f9c7254c987f5c83cbc288a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d6d9cf7977309e56d39d52c5986e99') in 0.002779 seconds
+  Import took 0.013088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.246766 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts
+  artifactKey: Guid(3b92f219eb374424c92db5cbd3fe7eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts using Guid(3b92f219eb374424c92db5cbd3fe7eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d7dfc947dff4a1fa60b08a53d80cd9') in 0.002767 seconds
+  Import took 0.012863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009929 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts
+  artifactKey: Guid(3b92f219eb374424c92db5cbd3fe7eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts using Guid(3b92f219eb374424c92db5cbd3fe7eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d7dfc947dff4a1fa60b08a53d80cd9') in 0.002425 seconds
+  Import took 0.014797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.642508 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/MovementComponentBase.cs
+  artifactKey: Guid(3fb9c123b82ab0f4ebf74c4635c711b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/MovementComponentBase.cs using Guid(3fb9c123b82ab0f4ebf74c4635c711b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51051fb16a1e64f8e7d99654fc565007') in 0.005668 seconds
+  Import took 0.012857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037976 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/MovementComponentBase.cs
+  artifactKey: Guid(3fb9c123b82ab0f4ebf74c4635c711b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/MovementComponentBase.cs using Guid(3fb9c123b82ab0f4ebf74c4635c711b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51051fb16a1e64f8e7d99654fc565007') in 0.002858 seconds
+  Import took 0.013450 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000923 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 76.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.744 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003456 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.753 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.1 MB.
+System memory in use after: 116.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4496.
+Total: 24.151000 ms (FindLiveObjects: 1.124900 ms CreateObjectMapping: 0.431300 ms MarkObjects: 20.772500 ms  DeleteObjects: 1.819200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001307 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 183.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.628 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.033566 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.437 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 51 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.5 MB.
+System memory in use after: 114.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4500.
+Total: 29.444800 ms (FindLiveObjects: 0.547900 ms CreateObjectMapping: 0.227900 ms MarkObjects: 26.983600 ms  DeleteObjects: 1.683400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22355.770660 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/MovementComponentBase.cs
+  artifactKey: Guid(3fb9c123b82ab0f4ebf74c4635c711b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/MovementComponentBase.cs using Guid(3fb9c123b82ab0f4ebf74c4635c711b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52775bedf9b666545d1f62f842a3a14') in 0.003898 seconds
+  Import took 0.077678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.531068 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs
+  artifactKey: Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs using Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7762ed924534cdb4ca4cf81b44c119cf') in 0.010844 seconds
+  Import took 0.047601 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001001 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.427 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003356 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.772 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 115.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4505.
+Total: 23.829000 ms (FindLiveObjects: 0.895300 ms CreateObjectMapping: 0.386300 ms MarkObjects: 20.947900 ms  DeleteObjects: 1.597700 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000904 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.766 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002984 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.868 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 51 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.5 MB.
+System memory in use after: 114.5 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4509.
+Total: 19.774200 ms (FindLiveObjects: 1.246000 ms CreateObjectMapping: 0.427800 ms MarkObjects: 16.597100 ms  DeleteObjects: 1.501900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.102587 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5529903daabd4dac6f558aed6a0b2f5') in 0.674367 seconds
+  Import took 0.711737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.106256 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66345b45e8bb14fa3b9c95ea5bdd6d96') in 0.013341 seconds
+  Import took 0.024334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.239965 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16d4561bb798ee4a6101214951c311a') in 0.012661 seconds
+  Import took 0.063271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2772.912345 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/MovementComponentBase.cs
+  artifactKey: Guid(3fb9c123b82ab0f4ebf74c4635c711b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/MovementComponentBase.cs using Guid(3fb9c123b82ab0f4ebf74c4635c711b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1144b7699cd0d95747b06c868aa02b54') in 0.004218 seconds
+  Import took 0.044111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs
+  artifactKey: Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs using Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b4794b160d04a0c232cf1e68fa18a5') in 0.004799 seconds
+  Import took 0.052679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/MovementComponentBase.cs
+  artifactKey: Guid(3fb9c123b82ab0f4ebf74c4635c711b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/MovementComponentBase.cs using Guid(3fb9c123b82ab0f4ebf74c4635c711b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1144b7699cd0d95747b06c868aa02b54') in 0.003392 seconds
+  Import took 0.012086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs
+  artifactKey: Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs using Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b4794b160d04a0c232cf1e68fa18a5') in 0.006704 seconds
+  Import took 0.017727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.579932 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs
+  artifactKey: Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs using Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a3933fe3e83d45bcc09179f2b6b73d') in 0.003220 seconds
+  Import took 0.027618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.842968 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs
+  artifactKey: Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs using Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b47371f31fa1ab8def263f5021732d4') in 0.003408 seconds
+  Import took 0.050613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.522445 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs
+  artifactKey: Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs using Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf54eee0fb2504f8f1507b7a901d508c') in 0.009976 seconds
+  Import took 0.022419 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000937 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Error: Could not load signature of DG.Tweening.DOTweenModuleAudio:DOFade due to: Could not load file or assembly 'DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Failed to load types in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Ludiq.PeekCore.TypeUtility+<GetTypesSafely>d__39.MoveNext () [0x00017] in D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Assets\Ludiq\Ludiq.PeekCore\Editor\Windows\Runtime\Reflection\TypeUtility.cs:883 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Ludiq.PeekCore.TypeUtility/<GetTypesSafely>d__39:MoveNext () (at Assets/Ludiq/Ludiq.PeekCore/Editor/Windows/Runtime/Reflection/TypeUtility.cs:887)
+Ludiq.PeekCore.RuntimeCodebase:.cctor () (at Assets/Ludiq/Ludiq.PeekCore/Editor/Windows/Runtime/Reflection/RuntimeCodebase.cs:45)
+Ludiq.PeekCore.SerializationTypeBinder:BindToType (string,Ludiq.OdinSerializer.DebugContext) (at Assets/Ludiq/Ludiq.PeekCore/Editor/Windows/Runtime/Serialization/SerializationTypeBinder.cs:17)
+Ludiq.OdinSerializer.SerializationNodeDataReader:EnterNode (System.Type&)
+Ludiq.OdinSerializer.ComplexTypeSerializer`1<System.Collections.Generic.Dictionary`2<string, object>>:ReadValue (Ludiq.OdinSerializer.IDataReader)
+Ludiq.OdinSerializer.Serializer`1<System.Collections.Generic.Dictionary`2<string, object>>:ReadValueWeak (Ludiq.OdinSerializer.IDataReader)
+Ludiq.OdinSerializer.UnitySerializationUtility:DeserializeUnityObject (UnityEngine.Object,Ludiq.OdinSerializer.IDataReader)
+Ludiq.OdinSerializer.UnitySerializationUtility:DeserializeUnityObject (UnityEngine.Object,Ludiq.OdinSerializer.SerializationData&,Ludiq.OdinSerializer.DeserializationContext,bool,System.Collections.Generic.List`1<UnityEngine.Object>)
+Ludiq.OdinSerializer.UnitySerializationUtility:DeserializeUnityObject (UnityEngine.Object,Ludiq.OdinSerializer.SerializationData&,Ludiq.OdinSerializer.DeserializationContext)
+Ludiq.PeekCore.Serialization:OdinDeserializeInto<object> (Ludiq.OdinSerializer.SerializationData,object&) (at Assets/Ludiq/Ludiq.PeekCore/Editor/Windows/Runtime/Serialization/Serialization.cs:403)
+Ludiq.PeekCore.Serialization:OnAfterDeserializeImplementation<Ludiq.PeekCore.LudiqAsset> (Ludiq.PeekCore.LudiqAsset,Ludiq.PeekCore.FullSerializationData,Ludiq.OdinSerializer.SerializationData,bool&) (at Assets/Ludiq/Ludiq.PeekCore/Editor/Windows/Runtime/Serialization/Serialization.cs:696)
+Ludiq.PeekCore.LudiqAsset:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () (at Assets/Ludiq/Ludiq.PeekCore/Editor/Windows/Runtime/Unity/LudiqAsset.cs:26)
+
+(Filename: Assets/Ludiq/Ludiq.PeekCore/Editor/Windows/Runtime/Reflection/TypeUtility.cs Line: 887)
+
+Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 84.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Failed to load types in assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Ludiq.PeekCore.TypeUtility+<GetTypesSafely>d__39.MoveNext () [0x00017] in D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Assets\Ludiq\Ludiq.PeekCore\Editor\Windows\Runtime\Reflection\TypeUtility.cs:883 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Ludiq.PeekCore.TypeUtility/<GetTypesSafely>d__39:MoveNext () (at Assets/Ludiq/Ludiq.PeekCore/Editor/Windows/Runtime/Reflection/TypeUtility.cs:887)
+Ludiq.PeekCore.Codebase:.cctor () (at Assets/Ludiq/Ludiq.PeekCore/Editor/Reflection/Codebase.cs:73)
+Ludiq.PeekCore.PluginContainer:Initialize () (at Assets/Ludiq/Ludiq.PeekCore/Editor/Plugins/PluginContainer.cs:110)
+Ludiq.PeekCore.PluginContainer:.cctor () (at Assets/Ludiq/Ludiq.PeekCore/Editor/Plugins/PluginContainer.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Ludiq/Ludiq.PeekCore/Editor/Windows/Runtime/Reflection/TypeUtility.cs Line: 887)
+
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.260 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004809 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.923 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.7 MB.
+System memory in use after: 121.7 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4572.
+Total: 15.396300 ms (FindLiveObjects: 0.604400 ms CreateObjectMapping: 0.363100 ms MarkObjects: 12.767400 ms  DeleteObjects: 1.659600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000931 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.342 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003286 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.720 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 122.1 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4576.
+Total: 16.765600 ms (FindLiveObjects: 0.762200 ms CreateObjectMapping: 0.270700 ms MarkObjects: 14.153900 ms  DeleteObjects: 1.577200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000903 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.867 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003502 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.795 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 121.3 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4580.
+Total: 19.921800 ms (FindLiveObjects: 0.645700 ms CreateObjectMapping: 0.367600 ms MarkObjects: 16.949200 ms  DeleteObjects: 1.957800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 904.162300 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e8f90ceccf51782293a6a3f67fc777') in 0.170717 seconds
+  Import took 0.208377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs
+  artifactKey: Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Movement Components/Scripts/RandomXYPlaneMovementComponent.cs using Guid(bc306a2ea4f25204ab848aecf577b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054d0a66fb792dac11f7a151ae4d66ba') in 0.003045 seconds
+  Import took 0.042574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e8f90ceccf51782293a6a3f67fc777') in 0.011560 seconds
+  Import took 0.020417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.857361 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83330785add2c3d28709fe49a65b9a76') in 0.013627 seconds
+  Import took 0.067348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.585839 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ca77d8ea6aa4ea2fa24889428ed65e') in 0.011338 seconds
+  Import took 0.053563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.236333 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab6e770fcecde3c2919cebb5ff89e26') in 0.014042 seconds
+  Import took 0.106051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.370127 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a870ed70730def2fc1bd684a95c47daf') in 0.013942 seconds
+  Import took 0.264577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.920275 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2fa595268b97903327aa702fc0021a') in 0.033593 seconds
+  Import took 0.079742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.189218 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a893f58df809e95dcbcf26b0f5e8c1') in 0.014403 seconds
+  Import took 0.059738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.797048 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445b89f73cd68cfc3d881dfc74283a87') in 0.011684 seconds
+  Import took 0.054161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.372909 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b7ebb5f034516a0e74200a251a8de7') in 0.014402 seconds
+  Import took 0.091515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.347270 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ead3fc6211b82068a379e9fc8e3fe7') in 0.010920 seconds
+  Import took 0.045985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014801 seconds.
+  path: Assets/Main Game/Targets/Prefabs/Target.prefab
+  artifactKey: Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Targets/Prefabs/Target.prefab using Guid(999d547174839134bad1a80cf37e7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ead3fc6211b82068a379e9fc8e3fe7') in 0.010311 seconds
+  Import took 0.020720 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001062 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.925 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003430 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.221 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.3 MB.
+System memory in use after: 122.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4620.
+Total: 20.534900 ms (FindLiveObjects: 1.199600 ms CreateObjectMapping: 0.606300 ms MarkObjects: 16.411200 ms  DeleteObjects: 2.315400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001158 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.247 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004093 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.143 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.5 MB.
+System memory in use after: 121.4 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4624.
+Total: 18.793300 ms (FindLiveObjects: 0.891400 ms CreateObjectMapping: 0.623800 ms MarkObjects: 15.341300 ms  DeleteObjects: 1.932300 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000981 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 75.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.200 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004356 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.296 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.3 MB.
+System memory in use after: 122.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4628.
+Total: 16.943000 ms (FindLiveObjects: 0.988900 ms CreateObjectMapping: 0.394200 ms MarkObjects: 13.995400 ms  DeleteObjects: 1.562900 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Yamin/Game Design/Unity/Editors/2020.2.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000891 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.018 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003392 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yamin\Game Design\Projects\Anim Trainer\Projects Unity\Aim Trainer_0\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.173 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 123.0 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4632.
+Total: 21.955800 ms (FindLiveObjects: 1.232700 ms CreateObjectMapping: 0.521100 ms MarkObjects: 17.860600 ms  DeleteObjects: 2.337800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
