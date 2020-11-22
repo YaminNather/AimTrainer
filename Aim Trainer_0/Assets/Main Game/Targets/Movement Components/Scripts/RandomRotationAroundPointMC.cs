@@ -16,8 +16,8 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
 
     private float m_Velocity;
 
-    [SerializeField] private float[] m_SpeedRange;
-    [SerializeField] private float[] m_TimeRange;
+    [SerializeField] private MinMax<float> m_SpeedRange;
+    [SerializeField] private MinMax<float> m_TimeRange;
 
     private Tweener m_MovementT;
 
@@ -62,9 +62,9 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
 
     private float CalcRandomDir_F() => ((Random.Range(0, 2) == 0) ? -1 : 1);
 
-    private float CalcRandomSpeed_F() => Random.Range(m_SpeedRange[0], m_SpeedRange[1]);
+    private float CalcRandomSpeed_F() => Random.Range(m_SpeedRange.GetMin_F(), m_SpeedRange.GetMax_F());
 
-    private float CalcRandomTime_F() => Random.Range(m_TimeRange[0], m_TimeRange[1]);
+    private float CalcRandomTime_F() => Random.Range(m_TimeRange.GetMin_F(), m_TimeRange.GetMax_F());
 
     private void SetAngle_F(float angle)
     {

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7494985256139292045}
   - component: {fileID: 7494985256139292043}
   - component: {fileID: 3171185186028655546}
-  - component: {fileID: 7185149611915219905}
+  - component: {fileID: 1663860505001599163}
   m_Layer: 7
   m_Name: TestTarget0_Prefab
   m_TagString: Untagged
@@ -76,7 +76,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &7185149611915219905
+--- !u!114 &1663860505001599163
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -85,9 +85,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 7494985256139292044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ae1c2dc8876ce44aa87479a7b93c283, type: 3}
+  m_Script: {fileID: 11500000, guid: bc306a2ea4f25204ab848aecf577b608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SpeedRange:
+    m_Min: 5
+    m_Max: 10
+  m_TimeRange:
+    m_Min: 1
+    m_Max: 2
 --- !u!1001 &9121047321346763418
 PrefabInstance:
   m_ObjectHideFlags: 0
