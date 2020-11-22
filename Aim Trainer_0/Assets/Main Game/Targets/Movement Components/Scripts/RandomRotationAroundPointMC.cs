@@ -25,15 +25,14 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
 
     protected override void Awake()
     {
-        m_IsKinematic = true;
+        base.Awake();
+        SetKinematic_F(true);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (!m_IsKinematic)
-        {
             SetAngle_F(GetAngle_F() + m_Velocity * Time.deltaTime);
-        }
     }
 
     public override void EnableMovement_F()
@@ -41,7 +40,7 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
         base.EnableMovement_F();
         m_CenterPoint = m_CenterPoint.With(y:transform.position.y);
         m_Radius = (transform.position - m_CenterPoint).magnitude;
-        m_IsKinematic = false;
+        SetKinematic_F(false);
         setVel_F();
 
         void setVel_F()
@@ -57,7 +56,7 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
     {
         CheckAndKillMovementT_F();
         m_Velocity = 0.0f;
-        m_IsKinematic = true;
+        SetKinematic_F(true);
     }
 
     private float CalcRandomDir_F() => ((Random.Range(0, 2) == 0) ? -1 : 1);
@@ -68,7 +67,25 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
 
     private void SetAngle_F(float angle)
     {
-        transform.position = m_CenterPoint + Quaternion.Euler(0.0f, angle, 0.0f) * (Vector3.forward * m_Radius);
+        //m_Rigidbody.MovePosition(m_CenterPoint + Quaternion.Euler(0.0f, angle, 0.0f) * (Vector3.forward * m_Radius));
+        //transform.position = m_CenterPoint + Quaternion.Euler(0.0f, angle, 0.0f) * (Vector3.forward * m_Radius);
+
+        Vector3 toPos = m_CenterPoint + Quaternion.Euler(0.0f, angle, 0.0f) * (Vector3.forward * m_Radius);
+
+        bool blocked = false;
+        Vector3 movementVector = toPos - transform.position;
+        if (!m_Rigidbody.SweepTest(movementVector.normalized, out RaycastHit hitInfo, movementVector.magnitude))
+        {
+            transform.position = toPos;
+        }
+        else
+        {
+            Debug.Log("Blocked");
+            blocked = true;
+        }
+
+        Debug.DrawRay(transform.position, movementVector.normalized * 5.0f, (blocked) ? Color.red : Color.green);
+        
         LookAtPoint_F();
     }
 
@@ -91,6 +108,13 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
     private void CheckAndKillMovementT_F()
     {
         if (m_MovementT.IsActive()) m_MovementT.Kill();
+    }
+
+
+    public void SetKinematic_F(bool value)
+    {
+        //m_Rigidbody.isKinematic = value;
+        m_IsKinematic = value;
     }
 }
 
