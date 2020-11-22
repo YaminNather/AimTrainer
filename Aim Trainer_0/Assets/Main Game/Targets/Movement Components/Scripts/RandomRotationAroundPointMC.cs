@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using TargetStuff.MovementComponents;
+using UnityEditor;
 using UnityEngine;
 
-public class RandomRotationAroundPointMC : MovementComponentBase
+public partial class RandomRotationAroundPointMC : MovementComponentBase
 {
     #region Variables
+
     private bool m_IsKinematic;
 
     [SerializeField] private Vector3 m_CenterPoint;
@@ -18,6 +20,7 @@ public class RandomRotationAroundPointMC : MovementComponentBase
     [SerializeField] private float[] m_TimeRange;
 
     private Tweener m_MovementT;
+
     #endregion
 
     protected override void Awake()
@@ -36,6 +39,8 @@ public class RandomRotationAroundPointMC : MovementComponentBase
     public override void EnableMovement_F()
     {
         base.EnableMovement_F();
+        m_CenterPoint = m_CenterPoint.With(y:transform.position.y);
+        m_Radius = (transform.position - m_CenterPoint).magnitude;
         m_IsKinematic = false;
         setVel_F();
 
@@ -55,7 +60,7 @@ public class RandomRotationAroundPointMC : MovementComponentBase
         m_IsKinematic = true;
     }
 
-    private float CalcRandomDir_F() => ((Random.Range(0, 1) == 0) ? -1 : 1);
+    private float CalcRandomDir_F() => ((Random.Range(0, 2) == 0) ? -1 : 1);
 
     private float CalcRandomSpeed_F() => Random.Range(m_SpeedRange[0], m_SpeedRange[1]);
 
@@ -70,7 +75,7 @@ public class RandomRotationAroundPointMC : MovementComponentBase
     private float GetAngle_F()
     {
         Vector3 centerPointToPlayerVector = transform.position - m_CenterPoint;
-        
+
         float angle = Vector3.Angle(Vector3.forward, centerPointToPlayerVector);
         Vector3 cross = Vector3.Cross(Vector3.forward, centerPointToPlayerVector);
         if (cross == Vector3.zero)
@@ -85,6 +90,18 @@ public class RandomRotationAroundPointMC : MovementComponentBase
 
     private void CheckAndKillMovementT_F()
     {
-        if(m_MovementT.IsActive()) m_MovementT.Kill();
+        if (m_MovementT.IsActive()) m_MovementT.Kill();
+    }
+}
+
+[CustomEditor(typeof(RandomRotationAroundPointMC))]
+public partial class RandomRotationAroundPointMCEditor : Editor
+{
+    private void OnSceneGUI()
+    {
+        serializedObject.Update();
+        Vector3 centerPoint = serializedObject.FindProperty("m_CenterPoint").vector3Value;
+        serializedObject.FindProperty("m_CenterPoint").vector3Value = Handles.PositionHandle(centerPoint, Quaternion.identity);
+        serializedObject.ApplyModifiedProperties();
     }
 }
