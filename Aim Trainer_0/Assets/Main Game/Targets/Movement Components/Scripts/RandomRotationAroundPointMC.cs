@@ -8,7 +8,6 @@ using UnityEngine;
 public partial class RandomRotationAroundPointMC : MovementComponentBase
 {
     #region Variables
-
     private bool m_IsKinematic;
 
     [SerializeField] private Vector3 m_CenterPoint;
@@ -20,18 +19,17 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
     [SerializeField] private MinMax<float> m_TimeRange;
 
     private Tweener m_MovementT;
-
     #endregion
 
     protected override void Awake()
     {
         base.Awake();
-        SetKinematic_F(true);
+        m_Rigidbody.isKinematic = true;
     }
 
     private void FixedUpdate()
     {
-        if (!m_IsKinematic)
+        if (m_IsMovementEnabled)
             SetAngle_F(GetAngle_F() + m_Velocity * Time.deltaTime);
     }
 
@@ -40,30 +38,26 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
         base.EnableMovement_F();
         m_CenterPoint = m_CenterPoint.With(y:transform.position.y);
         m_Radius = (transform.position - m_CenterPoint).magnitude;
-        SetKinematic_F(false);
+        //SetKinematic_F(false);
         setVel_F();
 
         void setVel_F()
         {
             CheckAndKillMovementT_F();
-            m_Velocity = CalcRandomDir_F() * CalcRandomSpeed_F();
+            m_Velocity = CalcRandomDir_F() * m_SpeedRange.CalcRandomValueWithinRange_F();
             m_MovementT = DOTween.To(() => 0.0f, val => { },
-                0.0f, CalcRandomTime_F()).OnComplete(setVel_F);
+                0.0f, m_TimeRange.CalcRandomValueWithinRange_F()).OnComplete(setVel_F);
         }
     }
 
     public override void DisableMovement_F()
     {
+        base.DisableMovement_F();
         CheckAndKillMovementT_F();
         m_Velocity = 0.0f;
-        SetKinematic_F(true);
     }
 
     private float CalcRandomDir_F() => ((Random.Range(0, 2) == 0) ? -1 : 1);
-
-    private float CalcRandomSpeed_F() => Random.Range(m_SpeedRange.GetMin_F(), m_SpeedRange.GetMax_F());
-
-    private float CalcRandomTime_F() => Random.Range(m_TimeRange.GetMin_F(), m_TimeRange.GetMax_F());
 
     private void SetAngle_F(float angle)
     {
@@ -73,9 +67,10 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
         Vector3 toPos = m_CenterPoint + Quaternion.Euler(0.0f, angle, 0.0f) * (Vector3.forward * m_Radius);
 
         bool blocked = false;
-        Vector3 movementVector = toPos - transform.position;
-        if (!m_Rigidbody.SweepTest(movementVector.normalized, out RaycastHit hitInfo, movementVector.magnitude))
+        Vector3 deltaPos = toPos - transform.position;
+        if (!m_Rigidbody.SweepTest(deltaPos.normalized, out _, deltaPos.magnitude))
         {
+            Debug.Log("Moved");
             transform.position = toPos;
         }
         else
@@ -84,14 +79,14 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
             blocked = true;
         }
 
-        Debug.DrawRay(transform.position, movementVector.normalized * 5.0f, (blocked) ? Color.red : Color.green);
+        Debug.DrawRay(transform.position, deltaPos.normalized * 5.0f, (blocked) ? Color.red : Color.green);
         
         LookAtPoint_F();
     }
 
     private float GetAngle_F()
     {
-        Vector3 centerPointToPlayerVector = transform.position - m_CenterPoint;
+        Vector3 centerPointToPlayerVector = transform.position.With(y:m_CenterPoint.y) - m_CenterPoint;
 
         float angle = Vector3.Angle(Vector3.forward, centerPointToPlayerVector);
         Vector3 cross = Vector3.Cross(Vector3.forward, centerPointToPlayerVector);
@@ -110,12 +105,6 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
         if (m_MovementT.IsActive()) m_MovementT.Kill();
     }
 
-
-    public void SetKinematic_F(bool value)
-    {
-        //m_Rigidbody.isKinematic = value;
-        m_IsKinematic = value;
-    }
 }
 
 [CustomEditor(typeof(RandomRotationAroundPointMC))]

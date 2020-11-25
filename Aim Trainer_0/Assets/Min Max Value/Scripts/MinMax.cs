@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [Serializable]
 public struct MinMax<T>
@@ -16,11 +17,22 @@ public struct MinMax<T>
         this.m_Max = m_Max;
     }
 
+    public T CalcRandomValueWithinRange_F()
+    {
+        if (typeof(T) == typeof(int))
+            return Random.Range((dynamic) m_Min, (dynamic) m_Max + 1);
+        else if (typeof(T) == typeof(float))
+            return Random.Range((dynamic)m_Min, (dynamic)m_Max);
+        else
+            return default(T);
+    }
+
     public T GetMin_F() => m_Min;
     public void SetMin_F(T value) => m_Min = value;
 
     public T GetMax_F() => m_Max;
     public T SetMax_F(T value) => m_Max = value;
+
 }
 
 [CustomPropertyDrawer(typeof(MinMax<>))]

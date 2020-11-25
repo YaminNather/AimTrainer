@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7494985256139292042}
   - component: {fileID: 7494985256139292045}
-  - component: {fileID: 2211446760470945612}
   - component: {fileID: 7494985256139292043}
   - component: {fileID: 3171185186028655546}
+  - component: {fileID: -7230943172733970324}
   m_Layer: 7
   m_Name: TestTarget2_Prefab
   m_TagString: Untagged
@@ -47,25 +47,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d96ebc2ab5d2e43ab31602a0d7d5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2211446760470945612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7494985256139292044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c19a7dd7a4e2a714e8ae29c78f730c34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_CenterPoint: {x: 0, y: 0, z: 0}
-  m_SpeedRange:
-  - 60
-  - 90
-  m_TimeRange:
-  - 1
-  - 2
 --- !u!114 &7494985256139292043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,6 +76,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &-7230943172733970324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494985256139292044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c945866687c664da4b1bfbb31e44b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CenterPoint: {x: 0, y: 0, z: 0}
+  m_CircularSpeedRange:
+    m_Min: 0
+    m_Max: 0
+  m_CircularTimeRange:
+    m_Min: 0.5
+    m_Max: 2
+  m_ForwardSpeedRange:
+    m_Min: 1
+    m_Max: 2
+  m_ForwardTimeRange:
+    m_Min: 1
+    m_Max: 2
+  m_Gravity: -9.98
 --- !u!1001 &5992786499291447594
 PrefabInstance:
   m_ObjectHideFlags: 0

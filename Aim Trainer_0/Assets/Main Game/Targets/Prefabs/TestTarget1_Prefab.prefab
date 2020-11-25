@@ -61,11 +61,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CenterPoint: {x: 0, y: 0, z: 0}
   m_SpeedRange:
-  - 60
-  - 90
+    m_Min: 2
+    m_Max: 3
   m_TimeRange:
-  - 1
-  - 2
+    m_Min: 1
+    m_Max: 3
 --- !u!114 &7494985256139292043
 MonoBehaviour:
   m_ObjectHideFlags: 0
