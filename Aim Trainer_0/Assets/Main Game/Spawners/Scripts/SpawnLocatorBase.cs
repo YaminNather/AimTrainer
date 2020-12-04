@@ -15,4 +15,11 @@ public abstract class SpawnLocatorBase : MonoBehaviour
     }
 
     public abstract Vector3 CalcRandomSpawnPoint_F();
+
+    protected abstract void DrawVisualizer_F();
+
+    private void OnDrawGizmos()
+    {
+        DrawVisualizer_F();
+    }
 }
