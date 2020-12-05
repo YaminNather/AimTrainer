@@ -16,6 +16,18 @@ public partial class NavMeshMC : MovementComponentBase
         m_NavMeshAgent = GetComponentInChildren<NavMeshAgent>();
     }
 
+    private void Update()
+    {
+        if (m_IsMovementEnabled)
+        {
+            if (m_NavMeshAgent.remainingDistance < 0.01f)
+            {
+                SetDestination_F();
+                Debug.Log("Set new destination cuz the object reached point");
+            }
+        }
+    }
+
     [ContextMenu("Enable Movement")]
     public override void EnableMovement_F()
     {
@@ -24,22 +36,25 @@ public partial class NavMeshMC : MovementComponentBase
 #endif
         base.EnableMovement_F();
 
-        setDestination_F();
+        SetDestination_F();
 
-        void setDestination_F()
-        {
-            if (CalcRandomMovePoint_F(2000.0f, out Vector3 point))
-            {
-                Debug.Log($"Found Point; Point = {point}");
-                m_NavMeshAgent.SetDestination(point);
-                m_MoveToPoint = point;
-            }
-            
-            CheckAndKillMovementT_F();
-            m_MovementT = DOTween.To(() => 0.0f, val => {}, 0.0f,
-                m_TimeRange.CalcRandomValueWithinRange_F()).OnComplete(setDestination_F);
-        }
     }
+
+    void SetDestination_F()
+    {
+        if (CalcRandomMovePoint_F(2000.0f, out Vector3 point))
+        {
+            Debug.Log($"Found Point; Point = {point}");
+            m_NavMeshAgent.SetDestination(point);
+            m_MoveToPoint = point;
+            m_NavMeshAgent.speed = m_SpeedRange.CalcRandomValueWithinRange_F();
+        }
+        
+        CheckAndKillMovementT_F();
+        m_MovementT = DOTween.To(() => 0.0f, val => {}, 0.0f,
+            m_TimeRange.CalcRandomValueWithinRange_F()).OnComplete(SetDestination_F);
+    }
+
 
     [ContextMenu("Disable Movement")]
     public override void DisableMovement_F()
