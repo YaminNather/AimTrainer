@@ -4,4 +4,4 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "SerializedDouble", menuName = "Serialized Variables/Double")]
-public class SerializedDouble : SerializedVariableBase<double> { }
+public class SerializedDouble : SerializedNumberVariableBase<double> { }

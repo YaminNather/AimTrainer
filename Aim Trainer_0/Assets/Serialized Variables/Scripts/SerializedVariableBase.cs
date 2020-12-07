@@ -5,18 +5,23 @@ using UnityEngine.Events;
 
 public class SerializedVariableBase<T> : ScriptableObject
 {
-    [SerializeField] private T m_InitialValue;
-    [SerializeField] private T m_SharedValue;
+    [SerializeField] protected T m_InitialValue;
+    [SerializeField] protected T m_Value;
     public System.Action<T> m_OnChangedE;
 
-    public void SetValueToInitialValue_F() => m_SharedValue = m_InitialValue;
+    public void SetValueToInitialValue_F() => m_Value = m_InitialValue;
 
     public T GetInitialValue_F() => m_InitialValue;
 
-    public T GetValue_F() => m_SharedValue;
+    public T GetValue_F() => m_Value;
     public void SetValue_F(T value)
     {
-        m_SharedValue = value;
-        m_OnChangedE?.Invoke(m_SharedValue);
+        m_Value = value;
+        m_OnChangedE?.Invoke(m_Value);
     }
+}
+
+public class SerializedNumberVariableBase<T> : SerializedVariableBase<T>
+{
+    public void OffsetValue_F(T value) => m_Value += (dynamic)value;
 }
