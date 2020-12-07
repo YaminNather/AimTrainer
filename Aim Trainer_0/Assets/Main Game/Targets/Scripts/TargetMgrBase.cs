@@ -9,14 +9,6 @@ namespace TargetStuff.ShapeComponents
 {
     public abstract class TargetMgrBase : MonoBehaviour
     {
-        #region Variables
-        private ShapeComponentBase m_ShapeComponentBase;
-        private MovementComponentBase m_MovementComponent;
-        private HealthComponent m_HealthComponent;
-
-        public System.Action<TargetMgrBase> m_OnKilledE;
-        #endregion
-
         protected virtual void Awake()
         {
             m_ShapeComponentBase = GetComponentInChildren<ShapeComponentBase>();
@@ -51,5 +43,14 @@ namespace TargetStuff.ShapeComponents
         }
 
         public ShapeComponentBase GetShapeComponent_F() => m_ShapeComponentBase;
+        
+        
+        #region Variables
+        private ShapeComponentBase m_ShapeComponentBase;
+        private MovementComponentBase m_MovementComponent;
+        private HealthComponent m_HealthComponent;
+
+        public System.Action<TargetMgrBase> m_OnKilledE;
+        #endregion
     }
 }

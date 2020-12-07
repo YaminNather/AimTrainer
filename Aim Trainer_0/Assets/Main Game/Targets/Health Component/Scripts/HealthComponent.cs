@@ -6,12 +6,6 @@ namespace TargetStuff.HealthComponents
 {
     public class HealthComponent : MonoBehaviour
     {
-        #region Variables
-        [SerializeField] private int m_MaxHealth;
-        private SerializedFloat m_CurHealth;
-        public System.Action m_OnHealthZeroE;
-        #endregion
-
         private void Awake()
         {
             m_CurHealth = ScriptableObject.CreateInstance<SerializedFloat>();
@@ -42,5 +36,14 @@ namespace TargetStuff.HealthComponents
         {
             Destroy(m_CurHealth);
         }
+
+
+        #region Variables
+        [SerializeField] private int m_MaxHealth;
+        private SerializedFloat m_CurHealth;
+        public System.Action m_OnHealthZeroE;
+        #endregion
+
+        public SerializedFloat GetCurHealthSerializedFloat_F() => m_CurHealth;
     }
 }
