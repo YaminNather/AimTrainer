@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Remoting.Contexts;
 using TargetStuff.ShapeComponents;
 using UnityEngine;
 
@@ -8,13 +9,6 @@ namespace MainGameMgrStuff
     [DefaultExecutionOrder(-9)]
     public class SpawnMgr : MonoBehaviour
     {
-        #region Variables
-        private SpawnLocatorBase[] m_Spawners;
-        [SerializeField] private TargetMgrBase m_TargetPrefab;
-
-        [SerializeField] private int m_InitialCount; 
-        #endregion
-
         private void Awake()
         {
             m_Spawners = FindObjectsOfType<SpawnLocatorBase>();
@@ -28,6 +22,7 @@ namespace MainGameMgrStuff
             }
         }
 
+        [ContextMenu("Spawn Target")]
         private void SpawnTarget_F()
         {
             SpawnLocatorBase spawner = m_Spawners[Random.Range(0, m_Spawners.Length)];
@@ -44,6 +39,7 @@ namespace MainGameMgrStuff
             }
 
             target.m_OnKilledE += onTargetKilledE;
+            
         }
 
         public void SpawnTarget_F(float delay)
@@ -57,5 +53,14 @@ namespace MainGameMgrStuff
                 SpawnTarget_F();
             }
         }
+        
+        
+        
+        #region Variables
+        private SpawnLocatorBase[] m_Spawners;
+        [SerializeField] private TargetMgrBase m_TargetPrefab;
+
+        [SerializeField] private int m_InitialCount; 
+        #endregion
     }
 }

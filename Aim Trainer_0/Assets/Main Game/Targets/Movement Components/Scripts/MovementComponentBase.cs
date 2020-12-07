@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TargetStuff.ShapeComponents;
 using UnityEngine;
 
 namespace TargetStuff.MovementComponents
@@ -7,13 +8,15 @@ namespace TargetStuff.MovementComponents
     public abstract class MovementComponentBase : MonoBehaviour
     {
         #region Variables
+        protected TargetMgrBase m_Target;
+        
         protected Rigidbody m_Rigidbody;
-
         protected bool m_IsMovementEnabled;
         #endregion
 
         protected virtual void Awake()
         {
+            m_Target = GetComponent<TargetMgrBase>();
             m_Rigidbody = GetComponent<Rigidbody>();
         }
 
