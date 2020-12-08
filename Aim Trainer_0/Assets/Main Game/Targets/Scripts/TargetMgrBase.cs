@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using CustomUI.Bar;
 using TargetStuff.HealthComponents;
 using TargetStuff.MovementComponents;
 using UnityEngine;
@@ -14,6 +15,16 @@ namespace TargetStuff.ShapeComponents
             m_ShapeComponentBase = GetComponentInChildren<ShapeComponentBase>();
             m_HealthComponent = GetComponentInChildren<HealthComponent>();
             m_MovementComponent = GetComponentInChildren<MovementComponentBase>();
+            m_HealthBar = GetComponentInChildren<SerializedFloatBar>();
+        }
+
+        protected virtual void Start()
+        {
+            if (m_HealthBar != null)
+            {
+                m_HealthBar.SetValueRange_F(new MinMax<float>(0, m_HealthComponent.GetMaxHealth_F()));
+                m_HealthBar.SetSharedValue_F(m_HealthComponent.GetCurHealthSharedValue_F());
+            }
         }
 
         public virtual void OnSpawn_F()
@@ -49,6 +60,7 @@ namespace TargetStuff.ShapeComponents
         private ShapeComponentBase m_ShapeComponentBase;
         private MovementComponentBase m_MovementComponent;
         private HealthComponent m_HealthComponent;
+        private SerializedFloatBar m_HealthBar;
 
         public System.Action<TargetMgrBase> m_OnKilledE;
         #endregion

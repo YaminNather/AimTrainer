@@ -6667,7 +6667,7 @@
     <member name="F:System.Drawing.KnownColor.MenuText">
       <summary>The system-defined color of a menu's text.</summary>
     </member>
-    <member name="F:System.Drawing.KnownColor.ScrollBar">
+    <member name="F:System.Drawing.KnownColor.ScrollSerializedFloatBar">
       <summary>The system-defined color of the background of a scroll bar.</summary>
     </member>
     <member name="F:System.Drawing.KnownColor.Window">
@@ -7117,7 +7117,7 @@
     <member name="F:System.Drawing.KnownColor.GradientInactiveCaption">
       <summary>The system-defined color of the lightest color in the color gradient of an inactive window's title bar. </summary>
     </member>
-    <member name="F:System.Drawing.KnownColor.MenuBar">
+    <member name="F:System.Drawing.KnownColor.MenuSerializedFloatBar">
       <summary>The system-defined color of the background of a menu bar.</summary>
     </member>
     <member name="F:System.Drawing.KnownColor.MenuHighlight">
@@ -10681,7 +10681,7 @@
         <IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
       </PermissionSet>
     </member>
-    <member name="P:System.Drawing.SystemBrushes.MenuBar">
+    <member name="P:System.Drawing.SystemBrushes.MenuSerializedFloatBar">
       <summary>Gets a <see cref="T:System.Drawing.SolidBrush" /> that is the color of the background of a menu bar.</summary>
       <returns>A <see cref="T:System.Drawing.SolidBrush" /> that is the color of the background of a menu bar.</returns>
       <filterpriority>1</filterpriority>
@@ -10705,7 +10705,7 @@
         <IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
       </PermissionSet>
     </member>
-    <member name="P:System.Drawing.SystemBrushes.ScrollBar">
+    <member name="P:System.Drawing.SystemBrushes.ScrollSerializedFloatBar">
       <summary>Gets a <see cref="T:System.Drawing.SolidBrush" /> that is the color of the background of a scroll bar.</summary>
       <returns>A <see cref="T:System.Drawing.SolidBrush" /> that is the color of the background of a scroll bar.</returns>
       <filterpriority>1</filterpriority>
@@ -10871,7 +10871,7 @@
       <returns>A <see cref="T:System.Drawing.Color" /> that is the color of a menu's background.</returns>
       <filterpriority>1</filterpriority>
     </member>
-    <member name="P:System.Drawing.SystemColors.MenuBar">
+    <member name="P:System.Drawing.SystemColors.MenuSerializedFloatBar">
       <summary>Gets a <see cref="T:System.Drawing.Color" /> structure that is the color of the background of a menu bar.</summary>
       <returns>A <see cref="T:System.Drawing.Color" /> that is the color of the background of a menu bar.</returns>
       <filterpriority>1</filterpriority>
@@ -10886,7 +10886,7 @@
       <returns>A <see cref="T:System.Drawing.Color" /> that is the color of a menu's text.</returns>
       <filterpriority>1</filterpriority>
     </member>
-    <member name="P:System.Drawing.SystemColors.ScrollBar">
+    <member name="P:System.Drawing.SystemColors.ScrollSerializedFloatBar">
       <summary>Gets a <see cref="T:System.Drawing.Color" /> structure that is the color of the background of a scroll bar.</summary>
       <returns>A <see cref="T:System.Drawing.Color" /> that is the color of the background of a scroll bar.</returns>
       <filterpriority>1</filterpriority>
@@ -11268,7 +11268,7 @@
         <IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
       </PermissionSet>
     </member>
-    <member name="P:System.Drawing.SystemPens.MenuBar">
+    <member name="P:System.Drawing.SystemPens.MenuSerializedFloatBar">
       <summary>Gets a <see cref="T:System.Drawing.Pen" /> that is the color of the background of a menu bar.</summary>
       <returns>A <see cref="T:System.Drawing.Pen" /> that is the color of the background of a menu bar.</returns>
       <filterpriority>1</filterpriority>
@@ -11292,7 +11292,7 @@
         <IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
       </PermissionSet>
     </member>
-    <member name="P:System.Drawing.SystemPens.ScrollBar">
+    <member name="P:System.Drawing.SystemPens.ScrollSerializedFloatBar">
       <summary>Gets a <see cref="T:System.Drawing.Pen" /> that is the color of the background of a scroll bar.</summary>
       <returns>A <see cref="T:System.Drawing.Pen" /> that is the color of the background of a scroll bar.</returns>
       <filterpriority>1</filterpriority>

@@ -124,9 +124,9 @@ public class CircularHumanoidMC : MovementComponentBase
             CheckAndKillMovementT_F(m_CircularMovementT);
 
             float dir = (Random.Range(0, 2) == 0) ? -1 : 1;
-            m_Velocity.x = m_CircularSpeedRange.CalcRandomValueWithinRange_F() * dir;
+            m_Velocity.x = m_CircularSpeedRange.GetRandomValueWithinRange_F() * dir;
 
-            m_CircularMovementT = DOTween.To(() => 0, val => { }, 0, m_CircularTimeRange.CalcRandomValueWithinRange_F()).
+            m_CircularMovementT = DOTween.To(() => 0, val => { }, 0, m_CircularTimeRange.GetRandomValueWithinRange_F()).
                 OnComplete(setCircularVel_F);
         }
 
@@ -134,9 +134,9 @@ public class CircularHumanoidMC : MovementComponentBase
         {
             CheckAndKillMovementT_F(m_ForwardMovementT);
             float dir = (Random.Range(0, 2) == 0) ? -1 : 1;
-            m_Velocity.z = m_ForwardSpeedRange.CalcRandomValueWithinRange_F() * dir;
+            m_Velocity.z = m_ForwardSpeedRange.GetRandomValueWithinRange_F() * dir;
 
-            m_CircularMovementT = DOTween.To(() => 0, val => { }, 0, m_ForwardTimeRange.CalcRandomValueWithinRange_F()).
+            m_CircularMovementT = DOTween.To(() => 0, val => { }, 0, m_ForwardTimeRange.GetRandomValueWithinRange_F()).
                 OnComplete(setCircularVel_F);
         }
     }

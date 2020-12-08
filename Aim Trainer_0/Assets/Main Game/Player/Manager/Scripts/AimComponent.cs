@@ -10,6 +10,11 @@ public class AimComponent : MonoBehaviour
 
     [SerializeField] private float m_Sensitivity = 0.022f;
     [SerializeField] private float m_SensitivityMultiplier = 1.0f;
+
+    [SerializeField] private float m_Firerate = 0.1f;
+    private float m_FirerateTimer;
+
+    [SerializeField] private int m_DamagePerShot = 20;
     #endregion
 
     private void Awake()
@@ -19,7 +24,9 @@ public class AimComponent : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (m_FirerateTimer > 0.0f) m_FirerateTimer -= Time.deltaTime;
+
+        if (Input.GetKey(KeyCode.Mouse0) && m_FirerateTimer <= 0.0f)
         {
             Ray ray = new Ray(transform.position, transform.forward);
             int layerMask = LayerMask.GetMask("Player");
@@ -28,8 +35,10 @@ public class AimComponent : MonoBehaviour
                 Debug.Log($"Hit objects name = {hitInfo.transform.name}");
                 TargetMgrBase target = hitInfo.transform.GetComponentInParent<TargetMgrBase>();
                 if (target != null)
-                    target.TakeDamage(200);
+                    target.TakeDamage(m_DamagePerShot);
             }
+
+            m_FirerateTimer = m_Firerate;
             Debug.DrawRay(transform.position, transform.forward.normalized * 20.0f, Color.red, 2.0f);
         }
     }

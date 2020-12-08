@@ -44,6 +44,8 @@ namespace TargetStuff.HealthComponents
         public System.Action m_OnHealthZeroE;
         #endregion
 
-        public SerializedFloat GetCurHealthSerializedFloat_F() => m_CurHealth;
+        public SerializedFloat GetCurHealthSharedValue_F() => m_CurHealth;
+
+        public float GetMaxHealth_F() => m_MaxHealth;
     }
 }

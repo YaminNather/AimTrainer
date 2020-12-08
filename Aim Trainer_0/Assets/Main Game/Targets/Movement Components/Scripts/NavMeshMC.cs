@@ -51,12 +51,12 @@ public partial class NavMeshMC : MovementComponentBase
             //Debug.Log($"Found Point; Point = {point}");
             m_NavMeshAgent.SetDestination(point);
             m_MoveToPoint = point;
-            m_NavMeshAgent.speed = m_SpeedRange.CalcRandomValueWithinRange_F();
+            m_NavMeshAgent.speed = m_SpeedRange.GetRandomValueWithinRange_F();
         }
         
         CheckAndKillMovementT_F();
         m_MovementT = DOTween.To(() => 0.0f, val => {}, 0.0f,
-            m_TimeRange.CalcRandomValueWithinRange_F()).OnComplete(SetDestination_F);
+            m_TimeRange.GetRandomValueWithinRange_F()).OnComplete(SetDestination_F);
         
         
         bool calcRandomMovePoint_F(float radius, out Vector3 point)

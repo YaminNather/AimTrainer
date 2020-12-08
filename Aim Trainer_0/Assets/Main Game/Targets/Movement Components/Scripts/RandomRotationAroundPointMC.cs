@@ -44,9 +44,9 @@ public partial class RandomRotationAroundPointMC : MovementComponentBase
         void setVel_F()
         {
             CheckAndKillMovementT_F();
-            m_Velocity = CalcRandomDir_F() * m_SpeedRange.CalcRandomValueWithinRange_F();
+            m_Velocity = CalcRandomDir_F() * m_SpeedRange.GetRandomValueWithinRange_F();
             m_MovementT = DOTween.To(() => 0.0f, val => { },
-                0.0f, m_TimeRange.CalcRandomValueWithinRange_F()).OnComplete(setVel_F);
+                0.0f, m_TimeRange.GetRandomValueWithinRange_F()).OnComplete(setVel_F);
         }
     }
 

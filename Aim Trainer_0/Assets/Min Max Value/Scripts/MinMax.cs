@@ -17,7 +17,7 @@ public struct MinMax<T>
         this.m_Max = m_Max;
     }
 
-    public T CalcRandomValueWithinRange_F()
+    public T GetRandomValueWithinRange_F()
     {
         if (typeof(T) == typeof(int))
             return Random.Range((dynamic) m_Min, (dynamic) m_Max + 1);
@@ -26,6 +26,10 @@ public struct MinMax<T>
         else
             return default(T);
     }
+    
+    public T ClampWithinRange_F(T value) => Mathf.Clamp((dynamic)value, (dynamic)m_Min, (dynamic)m_Max);
+
+    public T GetMidPoint_F() => ((dynamic)m_Max - (dynamic)m_Min) / 2.0f;
 
     public T GetMin_F() => m_Min;
     public void SetMin_F(T value) => m_Min = value;
